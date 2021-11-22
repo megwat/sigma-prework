@@ -1,0 +1,11 @@
+echo "# sigma-prework" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/megwat/sigma-prework.git
+git push -u origin main
+\\Write a short program that, when given a date, calculates the age between the current date and the given date. 
+\\An example of an input and output might look like this: 
+\\1990-01-01 should return 31
+\\1972-12-04 should return 48
