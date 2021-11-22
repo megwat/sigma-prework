@@ -9,3 +9,12 @@ git push -u origin main
 \\An example of an input and output might look like this: 
 \\1990-01-01 should return 31
 \\1972-12-04 should return 48
+
+
+
+
+
+function age(date) {
+t = Date.parse(Date.now()) - Date.parse(date);
+return Math.floor(t/(1000*60*60*24*365))
+}
