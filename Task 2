@@ -1,0 +1,4 @@
+function numbers(x){
+y = x.sort(function(a,b){return a-b};
+return [y[0], y[y.length]]
+}
